@@ -15,7 +15,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 @Configuration
-@MapperScan(basePackages = "com.ddtong.dao.mapper2", sqlSessionTemplateRef  = "twoSqlSessionTemplate")
+@MapperScan(basePackages = "com.ddtong.core.dao.mapper2", sqlSessionTemplateRef  = "twoSqlSessionTemplate")
 public class DataSource2Config {
 
     @Bean(name = "twoDataSource")

@@ -16,7 +16,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import javax.sql.DataSource;
 
 @Configuration
-@MapperScan(basePackages = "com.ddtong.dao.mapper1", sqlSessionTemplateRef  = "oneSqlSessionTemplate")
+@MapperScan(basePackages = "com.ddtong.core.dao.mapper1", sqlSessionTemplateRef  = "oneSqlSessionTemplate")
 public class DataSource1Config {
 
     @Bean(name = "oneDataSource")

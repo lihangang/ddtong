@@ -1,4 +1,4 @@
-//package com.ddtong.dao.datasource;
+//package com.ddtong.core.dao.datasource;
 //
 //import org.apache.ibatis.session.SqlSessionFactory;
 //import org.mybatis.spring.SqlSessionFactoryBean;
@@ -16,7 +16,7 @@
 //import javax.sql.DataSource;
 //
 //@Configuration
-//@MapperScan(basePackages = "com.ddtong.dao.mapper2", sqlSessionTemplateRef  = "threeSqlSessionTemplate")
+//@MapperScan(basePackages = "com.ddtong.core.dao.mapper2", sqlSessionTemplateRef  = "threeSqlSessionTemplate")
 //public class DataSource3Config {
 //
 //    @Bean(name = "threeDataSource")
