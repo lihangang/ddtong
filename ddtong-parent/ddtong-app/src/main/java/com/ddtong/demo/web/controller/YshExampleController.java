@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.ddtong.core.entity.YshExampleEntity;
+import com.ddtong.core.enums.YshExampleSexEnum;
 import com.ddtong.demo.service.YshExampleService;
-import com.ddtong.entity.YshExampleEntity;
-import com.ddtong.enums.YshExampleSexEnum;
 
 @RestController
 public class YshExampleController {

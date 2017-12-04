@@ -3,7 +3,7 @@ package com.ddtong.util;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 
-import com.ddtong.util.baiduapi.BaiduApiClient;
+import com.ddtong.core.util.baiduapi.BaiduApiClient;
 
 public class BaiduApiTest {
 	public static void main(String[] args) throws UnsupportedEncodingException, NoSuchAlgorithmException {

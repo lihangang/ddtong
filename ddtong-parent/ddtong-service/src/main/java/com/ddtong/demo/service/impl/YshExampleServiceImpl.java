@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.ddtong.dao.mapper1.demo.YshExampleMapper;
+import com.ddtong.core.dao.mapper1.demo.YshExampleMapper;
+import com.ddtong.core.entity.YshExampleEntity;
 import com.ddtong.demo.service.YshExampleService;
-import com.ddtong.entity.YshExampleEntity;
 
 @Service
 @Transactional(value ="oneTransactionManager",readOnly = true)

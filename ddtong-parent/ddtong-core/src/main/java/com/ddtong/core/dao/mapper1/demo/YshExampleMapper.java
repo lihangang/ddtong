@@ -1,10 +1,10 @@
-package com.ddtong.demo.service;
+package com.ddtong.core.dao.mapper1.demo;
 
 import java.util.List;
 
 import com.ddtong.core.entity.YshExampleEntity;
 
-public interface YshExampleService {
+public interface YshExampleMapper {
 	
 	List<YshExampleEntity> getAll();
 	
@@ -15,5 +15,5 @@ public interface YshExampleService {
 	void update(YshExampleEntity user);
 
 	void delete(Long id);
-	
+
 }

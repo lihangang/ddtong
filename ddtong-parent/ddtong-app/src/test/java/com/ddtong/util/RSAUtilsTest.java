@@ -1,11 +1,10 @@
 package com.ddtong.util;
 
-import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.ddtong.util.rsa.RSAUtils;
-import com.ddtong.util.rsa.basic.KeyVo;
+import com.ddtong.core.util.rsa.RSAUtils;
+import com.ddtong.core.util.rsa.basic.KeyVo;
 
 public class RSAUtilsTest {
 

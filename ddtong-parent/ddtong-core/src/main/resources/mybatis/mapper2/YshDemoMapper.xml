@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.ddtong.dao.mapper2.demo.YshDemoMapper" >
+<mapper namespace="com.ddtong.core.dao.mapper2.demo.YshDemoMapper" >
 
-    <resultMap id="BaseResultMap" type="com.ddtong.entity.YshDemoEntity" >
+    <resultMap id="BaseResultMap" type="com.ddtong.core.entity.YshDemoEntity" >
         <id column="id" property="id" jdbcType="BIGINT" />
         <result column="userName" property="userName" jdbcType="VARCHAR" />
         <result column="passWord" property="passWord" jdbcType="VARCHAR" />
-        <result column="user_sex" property="userSex" javaType="com.ddtong.enums.YshDemoSexEnum"/>
+        <result column="user_sex" property="userSex" javaType="com.ddtong.core.enums.YshDemoSexEnum"/>
         <result column="nick_name" property="nickName" jdbcType="VARCHAR" />
     </resultMap>
     
@@ -27,7 +27,7 @@
 	   WHERE id = #{id}
     </select>
 
-    <insert id="insert" parameterType="com.ddtong.entity.YshDemoEntity" >
+    <insert id="insert" parameterType="com.ddtong.core.entity.YshDemoEntity" >
        INSERT INTO 
        		t_yshfm_demo
        		(userName,passWord,user_sex) 
@@ -35,7 +35,7 @@
        		(#{userName}, #{passWord}, #{userSex})
     </insert>
     
-    <update id="update" parameterType="com.ddtong.entity.YshDemoEntity" >
+    <update id="update" parameterType="com.ddtong.core.entity.YshDemoEntity" >
        UPDATE 
        		t_yshfm_demo 
        SET 

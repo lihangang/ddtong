@@ -6,9 +6,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.ddtong.entity.YshDemoEntity;
-import com.ddtong.enums.YshDemoSexEnum;
-import com.ddtong.vo.ApiResponseResult;
+import com.ddtong.core.entity.YshDemoEntity;
+import com.ddtong.core.enums.YshDemoSexEnum;
+import com.ddtong.core.vo.ApiResponseResult;
 
 @Controller
 public class TestController {
