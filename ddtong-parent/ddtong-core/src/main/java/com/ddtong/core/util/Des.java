@@ -10,7 +10,7 @@ public class Des {
 		String key1 = "1";
 		String key2 = "2";
 		String key3 = "3";
-		String data = "admin";
+		String data = "admin-test";
 		String str = desObj.strEnc(data, key1, key2, key3);
 		System.out.println(str);
 		String dec = desObj.strDec(str, key1, key2, key3);

@@ -10,7 +10,7 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;  
 
 
-@Configuration
+//@Configuration
 public class RedisCacheConfig  {
 	
 	 Logger logger = LoggerFactory.getLogger(RedisCacheConfig.class);   

@@ -13,7 +13,7 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;  
 
 
-@Component
+//@Component
 public class RedisClient {
 		@Resource(name="jedisPool")  
 	    private JedisPool pool;  
